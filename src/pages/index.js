@@ -1,54 +1,30 @@
 import React from 'react';
 import { NextSeo } from 'next-seo';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export default function Home() {
   return (
     <div>
       <NextSeo title="Ben Botvinick" />
 
-      <main className="h-screen bg-black py-8 px-12 overflow-hidden">
-        <h1 className="text-6xl sm:text-8xl md:text-9xl font-black text-white -ml-2 md:-ml-3">
-          <div>Ben</div>
-          <span
-            className="text-transparent bg-clip-text bg-cover bg-center bg-pink-300"
-            style={{ backgroundImage: 'url(/img/sky.jpeg)' }}
-          >Botv
-          </span>
-          inick
+      <main className="h-screen bg-gray-50 py-8 px-12 overflow-hidden">
+        <h1 className="text-6xl sm:text-8xl text-gray-800 font-black -ml-2 font-serif md:-ml-3">
+          Ben<br />
+          Botvinick
         </h1>
 
-        <div className="mt-12 space-y-6 text-white text-md max-w-prose">
+        <div className="mt-10 space-y-6 text-md max-w-prose">
           <div>
-            When I was fourteen I started writing code to pull pranks on my buddies. Two years later I moved to Boston
-            and took a job at a startup.
+            When I was fourteen, I learned how to code so I could pull pranks on my buddies. When I was seventeen, I
+            started a company called{' '}
+            <a href="https://hyper.co" target="_blank" rel="noreferrer" className="underline">Hyper</a>. Six months
+            later I left high school, and in June 2021 we set up shop in Palo Alto.
           </div>
 
           <div>
-            When I was seventeen I started a company called{' '}
-            <a href="https://hyper.co" target="_blank" rel="noreferrer" className="transition bg-clip-text text-transparent font-black text-pink-200 hover:text-white">Hyper</a>.
-            Six months later I gave up on school. Now we're doing pretty well.
+            If you want to get in touch with me, my email is{' '}
+            <a href="https://hyper.co" target="_blank" rel="noreferrer" className="underline">ben@hyper.co</a>. I love
+            nothing more than a really good cold email.
           </div>
-
-          <div>
-            If you want to get in touch with me, my email is ben [at] hyper.co. I answer <i>almost</i> everything.
-          </div>
-        </div>
-
-        <div className="mt-12 text-white text-xl max-w-prose space-x-4">
-          <a href="https://twitter.com/benbotvinick" className="transition hover:text-pink-200">
-            <FontAwesomeIcon icon={faTwitter} size="lg" />
-          </a>
-          <a href="https://github.com/botv" className="transition hover:text-pink-200">
-            <FontAwesomeIcon icon={faGithub} size="lg" />
-          </a>
-          <a href="https://linkedin.com/in/botv" className="transition hover:text-pink-200">
-            <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
-          </a>
-          <a href="https://instagram.com/benbotvinick" className="transition hover:text-pink-200">
-            <FontAwesomeIcon icon={faInstagram} size="lg" />
-          </a>
         </div>
       </main>
     </div>
