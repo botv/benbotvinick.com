@@ -1,4 +1,0 @@
-Sitemap: https://hyper.co/sitemap.xml
-
-User-agent: *
-Allow: /
