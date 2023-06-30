@@ -21,7 +21,7 @@ export default function Home() {
           </div>
 
           <div>
-            LinkedIn: https://linkedin.com/in/benbotvinick
+            LinkedIn: <a href="https://linkedin.com/in/benbotvinick">https://linkedin.com/in/benbotvinick</a>
           </div>
         </div>
       </main>
