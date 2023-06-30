@@ -16,14 +16,12 @@ export default function Home() {
           <div>
             When I was fourteen, I learned how to code so I could pull pranks on my buddies. When I was seventeen, I
             started a company called{' '}
-            <a href="https://hyper.co" target="_blank" rel="noreferrer" className="underline">Hyper</a>. Six months
+            <a href="https://hyper.co" target="_blank" rel="noreferrer" className="underline">Hyper</a> to help folks sell memberships to Discord servers. Six months
             later I left high school, and in June 2021 we set up shop in Palo Alto.
           </div>
 
           <div>
-            If you want to get in touch with me, my email is{' '}
-            <a href="https://hyper.co" target="_blank" rel="noreferrer" className="underline">ben@hyper.co</a>. I love
-            nothing more than a really good cold email.
+            LinkedIn: https://linkedin.com/in/benbotvinick
           </div>
         </div>
       </main>
