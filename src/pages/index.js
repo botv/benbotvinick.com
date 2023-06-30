@@ -15,9 +15,12 @@ export default function Home() {
         <div className="mt-10 space-y-6 text-md max-w-prose">
           <div>
             When I was fourteen, I learned how to code so I could pull pranks on my buddies. When I was seventeen, I
-            started a company called{' '}
-            <a href="https://hyper.co" target="_blank" rel="noreferrer" className="underline">Hyper</a> to help folks sell memberships to Discord servers. Six months
-            later I left high school, and in June 2021 we set up shop in Palo Alto.
+            started a company called Hyper to help folks sell memberships to Discord servers. Six months
+            later I left high school, and in June 2021 we set up shop in Palo Alto. We raised $17M and then sold the business in 2023.
+          </div>
+              
+          <div>
+            Right now I'm thinking about what I might do next. If you've got any ideas for me, send me an email at benbotvinick at gmail.com.
           </div>
 
           <div>
