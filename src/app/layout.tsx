@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Ben Botvinick",
@@ -16,7 +13,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        style={{ fontFamily: '"Times New Roman", Times, serif' }}
+        className="text-[12pt] bg-white text-black"
+      >
+        {children}
+      </body>
     </html>
   );
 }
